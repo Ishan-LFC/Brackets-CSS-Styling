@@ -1,3 +1,4 @@
+//style headings
 h1{
 color: green;
     font-family: sans-serif;
@@ -7,6 +8,7 @@ color: paleturquoise;
     font-family: cursive;
 }
 
+//style lists
 ul{
 list-style-type: circle;
 }
@@ -14,7 +16,7 @@ ol{
 list-style-type: upper-roman;
 }
 
-//menu bar added
+//menu bar added and styled 
 a{  
 font-family : Helvetica, sans-serif;
 text-decoration : none;
@@ -22,6 +24,18 @@ background-color: aquamarine;
 padding : 5px;
 }
 a:hover{
+background-color: aqua;
+color : #ffffff;
+}
+
+//<div> added so that specific hyperlinks will have menu style. correct code with the following
+#menu-bar a{
+font-family : Helvetica, sans-serif;
+text-decoration : none;
+background-color: aquamarine;
+padding : 5px;
+}
+#menu-bar a:hover{
 background-color: aqua;
 color : #ffffff;
 }
